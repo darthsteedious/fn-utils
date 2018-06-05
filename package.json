@@ -1,0 +1,16 @@
+{
+  "name": "fn-utils",
+  "version": "0.0.1",
+  "description": "Functional Utilities",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ --out-dir ./lib --ignore _*.js,node_modules,lib",
+    "test": "node src/_tests.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-1": "^6.24.1"
+  }
+}
